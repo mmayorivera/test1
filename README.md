@@ -2,8 +2,8 @@ while [ ! -z "`ps -e | grep 'apt\|dpkg'`" ]; do echo "Waiting for apt or dpkg to
 sudo apt-get update && sudo apt-get -y install ca-certificates wget && \
 sudo wget -nv -O serverpilot-installer https://download.serverpilot.io/serverpilot-installer && \
 sudo sh serverpilot-installer \
-    --server-id=DYTslPadVfq5MgnK \
-    --server-apikey=lyN7M8G2NneGn11rvSBRTdmLHFNg0i4WmS6u8LGZj7g
+    --server-id=FLQeUiEbdEcajM4M \
+    --server-apikey=d5zQ7GqSqsRLpb5RVlkF86grXcLMvC8o60yiyH7vX5A
 
 
 
